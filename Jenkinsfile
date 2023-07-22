@@ -6,15 +6,15 @@ pipeline {
     }    
 
     stages {
-        stage('clone_project_A') {
+        stage('clone_project_B') {
             steps {
-                echo 'clone project A'
+                echo 'clone project B'
                 git 'https://github.com/naresh-frisco/frm_vincloud2_to_naresh_x.git'
             }
         }
-        stage('build_project_A') {
+        stage('build_project_B') {
             steps {
-                echo 'build_projectA'
+                echo 'build_projectB'
                 sh 'yum install maven -y'
                 sh 'mvn -Dmaven.test.failure.ignore=true install'
             }
