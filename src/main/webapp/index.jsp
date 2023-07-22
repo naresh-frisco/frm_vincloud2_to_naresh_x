@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Welcome to Frisco, Tx right now RICE Shortage hurry up and get RICE bags, this is ORDER...</title>
+<title>Welcome to Frisco, Tx Today-July-22 saturday right now RICE Shortage hurry up and get RICE bags, this is ORDER...</title>
 <style>
   body {
     background-color: Green;
