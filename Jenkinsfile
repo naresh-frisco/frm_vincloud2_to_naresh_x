@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('clone_project_B why not working') {
             steps {
-                echo 'clone project B'
+                echo 'clone_project_B why not working??'
                 git 'https://github.com/naresh-frisco/frm_vincloud2_to_naresh_x.git'
             }
         }
