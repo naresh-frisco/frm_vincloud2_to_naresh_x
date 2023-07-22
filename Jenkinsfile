@@ -12,9 +12,9 @@ pipeline {
                 git 'https://github.com/naresh-frisco/frm_vincloud2_to_naresh_x.git'
             }
         }
-        stage('build_project_B') {
+        stage('build_project_C') {
             steps {
-                echo 'build_projectB'
+                echo 'build_projectC'
                 sh 'yum install maven -y'
                 sh 'mvn -Dmaven.test.failure.ignore=true install'
             }
