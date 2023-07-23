@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Welcome to Frisco, Tx Today-July-22 saturday 8.50 am cst right now RICE Shortage hurry up and get RICE bags, this is ORDER...</title>
+<title>Welcome to Frisco, Tx Today-July-23 SUNDAY 12:00 PM CSTt right now Jaiguru Manik...</title>
 <style>
   body {
     background-color: Green;
@@ -11,7 +11,7 @@
 </style>
 </head>
 <body>
-<h1> Pray god it is not working - Jaiguru manik  please help asap</h1>
+<h1> Jaiguru Manik... </h1>
 <p>Welcome to Frisco, TX</p>
 </body>
 </html>
