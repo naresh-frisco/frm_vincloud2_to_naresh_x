@@ -21,9 +21,9 @@ pipeline {
         } 
         stage('Docker_build  not working???') {
             steps {
-                echo 'Docker build_projectd'
+                echo 'Docker build_projecte'
                 echo 'Tag the Image'
-                sh 'docker build -t projectd .' 
+                sh 'docker build -t projecte .' 
             }
         }
         stage('login to dockerhub') {
@@ -35,7 +35,7 @@ pipeline {
         stage('Tag the Image') {
             steps {
                 echo 'Tag the Image'
-                sh 'docker tag  projectd nareshfrsico/projectd'
+                sh 'docker tag  projectd nareshfrsico/projecte'
             }
         } 
         stage('Deploy to docker hub') {
@@ -47,14 +47,14 @@ pipeline {
         stage('Remove Docker conatiner') {
             steps {
                 echo 'Remove Docker conatiner'
-                sh 'docker stop projectd_conatiner || true'
-                sh 'docker rm projectd_conatiner || true'
+                sh 'docker stop projecte_conatiner || true'
+                sh 'docker rm projecte_conatiner || true'
             }
         }        
         stage('Run docker image') {
             steps {
                 echo 'Deploy to docker hub'
-                sh 'docker run --name projectd_conatiner -d -p 8181:8080 nareshfrisco/projectd'
+                sh 'docker run --name projecte_conatiner -d -p 8181:8080 nareshfrisco/projecte'
             }
         }
         stage('added one more stage') {
