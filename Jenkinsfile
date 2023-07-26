@@ -41,7 +41,7 @@ pipeline {
         stage('Deploy to docker hub') {
             steps {
                 echo 'Deploy to docker hub'
-                sh 'docker push naresh-frisco/projectd'
+                sh 'docker push nareshfrisco/projectd'
             }
         }
         stage('Remove Docker conatiner') {
