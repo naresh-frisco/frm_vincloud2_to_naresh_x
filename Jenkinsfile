@@ -35,7 +35,7 @@ pipeline {
         stage('Tag the Image') {
             steps {
                 echo 'Tag the Image'
-                sh 'docker tag  projecte nareshfrsico/projecte'
+                sh 'docker tag  projecte nareshfrisco/projecte'
             }
         } 
         stage('Deploy to docker hub') {
