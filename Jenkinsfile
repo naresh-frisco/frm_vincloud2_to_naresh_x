@@ -57,7 +57,7 @@ pipeline {
                 sh 'docker run --name projecte_conatiner -d -p 8181:8080 nareshfrisco/projecte'
             }
         }
-        stage('added one more stage') {
+        stage('added one more stage FInally It is working now god is great8') {
             steps {
                 echo 'added one more stage'                
             }
