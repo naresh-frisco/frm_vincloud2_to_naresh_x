@@ -35,13 +35,13 @@ pipeline {
         stage('Tag the Image') {
             steps {
                 echo 'Tag the Image'
-                sh 'docker tag  projectd nareshfrsico/projecte'
+                sh 'docker tag  projecte nareshfrsico/projecte'
             }
         } 
         stage('Deploy to docker hub') {
             steps {
                 echo 'Deploy to docker hub'
-                sh 'docker push nareshfrisco/projectd'
+                sh 'docker push nareshfrisco/projecte'
             }
         }
         stage('Remove Docker conatiner') {
