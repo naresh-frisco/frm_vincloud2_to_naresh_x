@@ -22,6 +22,7 @@ pipeline {
         stage('Docker_build  not working???') {
             steps {
                 echo 'Docker build_projectd'
+                echo 'Tag the Image'
                 sh 'docker build -t projectd .' 
             }
         }
@@ -34,7 +35,7 @@ pipeline {
         stage('Tag the Image') {
             steps {
                 echo 'Tag the Image'
-                sh 'docker tag  projectd naresh-frsico/projectd'
+                sh 'docker tag  projectd nareshfrsico/projectd'
             }
         } 
         stage('Deploy to docker hub') {
